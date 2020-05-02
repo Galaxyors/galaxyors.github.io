@@ -1,0 +1,60 @@
+.ui-form > *{
+    margin-bottom: 20px;
+}
+.ui-form > *:last-child{
+    margin-bottom: 0;
+}
+
+.ui-form > .error,.ui-form > .error:focus{
+    border-color: #f56c6c;
+}
+
+.ui-form-input{
+    font-size: 14px;
+    width: 100%;
+    height: 42px;
+    background-color: #fdfdff;
+    border: 1px solid #e4e6fc;
+    border-radius: 5px;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.ui-form-input:focus,.ui-form-input:hover{
+    background-color: #fefeff;
+    border-color: #95a0f4;
+}
+.ui-form-input::placeholder{
+    color: #C0C4CC;
+}
+
+.ui-btn{
+    cursor: pointer;
+    display: inline-block;
+    min-width: 80px;
+    min-height: 40px;
+    line-height: 40px;
+    outline: none;
+    border: none;
+    vertical-align: baseline;
+    background: #5755d9;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 14px;
+}
+
+.ui-btn:focus, .ui-btn.active {
+    background-color: #807fe2;
+}
+.clear-fix:before, .clear-fix:after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.ui-link{
+    font-size: 12px;
+    cursor: pointer;
+    color: #909399;
+}
